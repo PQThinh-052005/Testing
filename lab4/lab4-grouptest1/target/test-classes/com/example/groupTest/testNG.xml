@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite example">
+    <test name="testing">
+        <groups>
+            <run>
+                <include name="Regression"/>
+                <exclude name="Smoke test"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="groupTest.GroupExample"/>
+        </classes>
+    </test>
+</suite>
